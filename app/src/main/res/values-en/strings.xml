@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anı Defteri</string>
+    <string name="change_text_color">Change Text Color</string>
+    <string name="change_the_font">Change The Font</string>
+    <string name="sound_on_off">Sound On/Off</string>
+    <string name="select_language">Select Language</string>
+    <string name="remove">Remove</string>
+    <string name="start">Start</string>
+    <string name="list_item">List Item</string>
+    <string name="no_sentence_to_list_found">NO SENTENCE TO LIST FOUND.</string>
+    <string name="add_text">Add Text</string>
+    <string name="filter">Filter</string>
+    <string name="no_filter">No Filter</string>
+    <string name="show_only_favorites">Show Only Favorites</string>
+    <string name="hide_favorites">Hide Favorites</string>
+    <string name="deletion_confirmation_title">Deletion Confirmation</string>
+    <string name="deletion_confirmation">Are you sure you want to delete the selected items?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="memories_are_stored_here">Memories are stored here...</string>
+    <string name="welcome">Welcome. Which moment would you like to capture today?</string>
+    <string name="reminder_type">Reminder Type:</string>
+    <string name="select_date">SELECT DATE</string>
+    <string name="select_time">SELECT TIME</string>
+    <string name="favorite">Favorite</string>
+    <string name="reminder">Reminder</string>
+    <string name="edit_text">Edit Text</string>
+    <string name="save">SAVE</string>
+    <string name="congratulations">Congratulations! You recorded this memory exactly one year ago today.</string>
+    <string name="the_sentence_you_want_to_remember">The sentence you want to remember:</string>
+    <string name="the_date_you_recorded">The date you recorded:</string>
+    <string name="search">Search</string>
+    <string name="search_in_list">Search in list...</string>
+    <string name="memory_years_ago">Congratulations! You saved this memory more than %d years ago.</string>
+    <string name="memory_months_ago">Wow! You wrote this memory %d months ago to remember those days.</string>
+    <string name="memory_days_ago">Great! Exactly %d days have passed since this memory.</string>
+    <string name="memory_hours_ago">This memory is still fresh! Only %d hours have passed.</string>
+    <string name="memory_minutes_ago">You added this memory %d minutes ago!</string>
+    <string name="no_knowledge_of_history">No knowledge of history.</string>
+    <string name="reminder_sentences">Reminder Sentences</string>
+    <string name="select_filter">Select Filter</string>
+    <string name="exact_alarm_permission_needed">Permission for exact alarms is required.</string>
+    <string name="past_date_set_to_next_period">A past date was selected, reminder set for the next period.</string>
+    <string name="past_date_one_time_error">One-time reminder cannot be set for a past date.</string>
+    <string name="reminder_set_success">Reminder has been set.</string>
+    <string name="reminder_type_one_time">One Time</string>
+    <string name="reminder_type_daily">Daily</string>
+    <string name="reminder_type_monthly">Monthly</string>
+    <string name="reminder_type_yearly">Yearly</string>
+    <string name="notification_permission_title">Notification Permission Required</string>
+    <string name="notification_permission_message">To add reminders to your memories, the app needs permission to send notifications. If you grant permission, reminders will work; otherwise, this feature will remain inactive.</string>
+    <string name="notification_permission_grant">Grant Permission</string>
+    <string name="notification_permission_deny">Deny</string>
+    <string name="notification_feature_disabled">Reminder feature has been disabled.</string>
+    <string name="notification_permission_granted">Notification permission granted. Reminders are now active!</string>
+    <string name="notification_permission_denied_permanently">Permission denied. The reminder feature will not be available.</string>
+    <string name="recorded">Recorded</string>
+    <string name="an_error_occurred">On Error Occurred</string>
+    <string name="action_sound_on">Sound On</string>
+    <string name="action_sound_off">Sound Off</string>
+    <string name="reminder_dialog_title">Set Reminder</string>
+    <string name="reminder_save">Save</string>
+    <string name="reminder_cancel">Cancel</string>
+    <string name="reminder_remove">Remove</string>
+    <string name="reminder_removed_toast">Reminder removed.</string>
+    <string name="please_enter_some_text">Please enter some text.</string>
+    <string name="options_dialog_title">What would you like to do?</string>
+    <string name="option_edit">Edit</string>
+    <string name="option_delete">Delete</string>
+    <string name="option_add_favorite">Add to Favorites</string>
+    <string name="option_remove_favorite">Remove from Favorites</string>
+    <string name="option_add_reminder">Add Reminder</string>
+    <string name="option_edit_reminder">Edit/Remove Reminder</string>
+    <string name="delete_confirmation_title">Confirm Deletion</string>
+    <string name="delete_confirmation_message">Are you sure you want to delete this item?</string>
+    <string name="deleted_toast">Deleted</string>
+    <string name="select_font">Select Font</string>
+
+    <string-array name="reminder_types">
+        <item>One Time</item>
+        <item>Daily</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+    <string name="added_to_favorites">Added to favorites.</string>
+    <string name="removed_from_favorites">Removed from favorites.</string>
+
+    <plurals name="items_selected">
+        <item quantity="one">%d item selected</item>
+        <item quantity="other">%d items selected</item>
+    </plurals>
+
+    <plurals name="items_deleted">
+        <item quantity="one">%d item deleted.</item>
+        <item quantity="other">%d items deleted.</item>
+    </plurals>
+    <string name="notification_channel_name">Memory Diary Reminders</string>
+    <string name="notification_default_title">Memory Diary Reminder</string>
+
+    <plurals name="reminder_seconds_ago">
+        <item quantity="one">You saved this %d second ago, want to remember it?</item>
+        <item quantity="other">You saved this %d seconds ago, want to remember it?</item>
+    </plurals>
+
+    <plurals name="reminder_minutes_ago">
+        <item quantity="one">You saved this %d minute ago, want to remember it?</item>
+        <item quantity="other">You saved this %d minutes ago, want to remember it?</item>
+    </plurals>
+
+    <plurals name="reminder_hours_ago">
+        <item quantity="one">You saved this %d hour ago, want to remember it?</item>
+        <item quantity="other">You saved this %d hours ago, want to remember it?</item>
+    </plurals>
+
+    <plurals name="reminder_days_ago">
+        <item quantity="one">You saved this %d day ago, want to remember it?</item>
+        <item quantity="other">You saved this %d days ago, want to remember it?</item>
+    </plurals>
+
+    <plurals name="reminder_weeks_ago">
+        <item quantity="one">You saved this %d week ago, want to remember it?</item>
+        <item quantity="other">You saved this %d weeks ago, want to remember it?</item>
+    </plurals>
+
+    <plurals name="reminder_months_ago">
+        <item quantity="one">You saved this %d month ago, want to remember it?</item>
+        <item quantity="other">You saved this %d months ago, want to remember it?</item>
+    </plurals>
+
+    <plurals name="reminder_years_ago">
+        <item quantity="one">You saved this %d year ago, want to remember it?</item>
+        <item quantity="other">You saved this %d years ago, want to remember it?</item>
+    </plurals>
+</resources>

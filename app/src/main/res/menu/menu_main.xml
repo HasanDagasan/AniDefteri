@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/yazirengi"
+        android:title="@string/change_text_color" />
+    <item
+        android:id="@+id/yazitipi"
+        android:title="@string/change_the_font"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sesayar"
+        android:title="@string/sound_on_off" />
+    <item
+        android:id="@+id/dilsecim"
+        android:title="@string/select_language" />
+</menu>

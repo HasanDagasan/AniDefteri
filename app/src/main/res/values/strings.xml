@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Anı Defteri</string>
+    <string name="change_text_color">Yazı Rengini Değiştir</string>
+    <string name="change_the_font">Yazı Tipini Değiştir</string>
+    <string name="sound_on_off">Sesi Aç/Kapat</string>
+    <string name="select_language">Dil Seçin</string>
+    <string name="remove">Sil</string>
+    <string name="start">BAŞLA</string>
+    <string name="list_item">List Item</string>
+    <string name="no_sentence_to_list_found">LİSTELENECEK SÖZ BULUNAMADI.</string>
+    <string name="add_text">Metin Ekle</string>
+    <string name="filter">Filtrele</string>
+    <string name="no_filter">Filtre Yok</string>
+    <string name="show_only_favorites">Sadece Favorileri Göster</string>
+    <string name="hide_favorites">Favorileri Gizle</string>
+    <string name="deletion_confirmation_title">Silme Onayı</string>
+    <string name="deletion_confirmation">Seçili öğeleri silmek istediğinize emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="memories_are_stored_here">Hatırların burada saklı...</string>
+    <string name="welcome">Hoşgeldin. Bugün hangi anını kaydetmek istersin?</string>
+    <string name="reminder_type">Hatırlatma Tipi:</string>
+    <string name="select_date">TARİH SEÇ</string>
+    <string name="select_time">SAAT SEÇ</string>
+    <string name="favorite">Favori</string>
+    <string name="reminder">Hatırlatıcı</string>
+    <string name="edit_text">Metni Düzenle</string>
+    <string name="save">KAYDET</string>
+    <string name="congratulations">Tebrikler! Tam 1 yıl önce bugün bu anıyı kaydetmiştin.</string>
+    <string name="the_sentence_you_want_to_remember">Hatırlamak istediğin anı:</string>
+    <string name="the_date_you_recorded">Kaydettiğin tarih:</string>
+    <string name="search">Ara</string>
+    <string name="search_in_list">Listede ara...</string>
+    <string name="memory_years_ago">Tebrikler! Bu anıyı %d yıldan daha uzun süre önce kaydetmiştin.</string>
+    <string name="memory_months_ago">Vay be! Bu anıyı %d ay önce o günleri hatırlamak için yazmıştın.</string>
+    <string name="memory_days_ago">Harika! Bu anının üzerinden tam %d gün geçti.</string>
+    <string name="memory_hours_ago">Bu anı daha çok taze! Üzerinden sadece %d saat geçti.</string>
+    <string name="memory_minutes_ago">Bu anını %d dakika önce eklemiştin!</string>
+    <string name="no_knowledge_of_history">Tarih bilgisi yok.</string>
+    <string name="reminder_sentences">Hatırlatıcı Olanlar</string>
+    <string name="select_filter">Filtre Seçin</string>
+    <string name="exact_alarm_permission_needed">Doğru zamanlı hatırlatıcılar için izin gerekli.</string>
+    <string name="past_date_set_to_next_period">Geçmiş bir tarih seçildi, bir sonraki periyoda ayarlandı.</string>
+    <string name="past_date_one_time_error">Geçmiş tarihe tek seferlik hatırlatma kurulamaz.</string>
+    <string name="reminder_set_success">Hatırlatıcı ayarlandı.</string>
+    <string name="reminder_type_one_time">Tek Seferlik</string>
+    <string name="reminder_type_daily">Her Gün</string>
+    <string name="reminder_type_monthly">Her Ay</string>
+    <string name="reminder_type_yearly">Her Yıl</string>
+    <string name="notification_permission_title">Bildirim İzni Gerekiyor</string>
+    <string name="notification_permission_message">Anılarınıza hatırlatıcı ekleyebilmeniz için uygulamanın bildirim gönderme iznine ihtiyacı var. İzin verirseniz hatırlatıcılar çalışır, vermezseniz bu özellik pasif kalır.</string>
+    <string name="notification_permission_grant">İzin Ver</string>
+    <string name="notification_permission_deny">İzin Verme</string>
+    <string name="notification_feature_disabled">Hatırlatıcı özelliği devre dışı bırakıldı.</string>
+    <string name="notification_permission_granted">Bildirim izni verildi. Hatırlatıcılar artık aktif!</string>
+    <string name="notification_permission_denied_permanently">İzin verilmedi. Hatırlatıcı özelliği kullanılamayacak.</string>
+    <string name="recorded">Kaydedildi</string>
+    <string name="an_error_occurred">Bir hata oluştu</string>
+    <string name="action_sound_on">Sesi Aç</string>
+    <string name="action_sound_off">Sesi Kapat</string>
+    <string name="reminder_dialog_title">Hatırlatıcı Ayarla</string>
+    <string name="reminder_save">Kaydet</string>
+    <string name="reminder_cancel">İptal</string>
+    <string name="reminder_remove">Kaldır</string>
+    <string name="reminder_removed_toast">Hatırlatıcı kaldırıldı.</string>
+    <string name="please_enter_some_text">Please enter some text.</string>
+    <string name="options_dialog_title">Ne yapmak istersin?</string>
+    <string name="option_edit">Düzenle</string>
+    <string name="option_delete">Sil</string>
+    <string name="option_add_favorite">Favorilere Ekle</string>
+    <string name="option_remove_favorite">Favorilerden Kaldır</string>
+    <string name="option_add_reminder">Hatırlatma Ekle</string>
+    <string name="option_edit_reminder">Hatırlatmayı Düzenle/Kaldır</string>
+    <string name="delete_confirmation_title">Silme Onayı</string>
+    <string name="delete_confirmation_message">Bu öğeyi silmek istediğinize emin misiniz?</string>
+    <string name="deleted_toast">Silindi</string>
+    <string name="select_font">Yazı Tipi Seçin</string>
+
+    <string-array name="reminder_types">
+        <item>Tek Seferlik</item>
+        <item>Her Gün</item>
+        <item>Her Ay</item>
+        <item>Her Yıl</item>
+    </string-array>
+    <string name="added_to_favorites">Favorilere eklendi.</string>
+    <string name="removed_from_favorites">Favorilerden çıkarıldı.</string>
+
+    <plurals name="items_selected">
+    <item quantity="one">%d öğe seçildi</item>
+    <item quantity="other">%d öğe seçildi</item>
+</plurals>
+
+    <plurals name="items_deleted">
+        <item quantity="one">%d öğe silindi.</item>
+        <item quantity="other">%d öğe silindi.</item>
+    </plurals>
+    <string name="notification_channel_name">Anı Defteri Hatırlatıcıları</string>
+    <string name="notification_default_title">Anı Defteri Hatırlatıcısı</string>
+
+    <plurals name="reminder_seconds_ago">
+        <item quantity="one">%d saniye önce bu sözü kaydettin, hatırlamak ister misin?</item>
+        <item quantity="other">%d saniye önce bu sözü kaydettin, hatırlamak ister misin?</item>
+    </plurals>
+
+    <plurals name="reminder_minutes_ago">
+        <item quantity="one">%d dakika önce bu sözü kaydettin, hatırlamak ister misin?</item>
+        <item quantity="other">%d dakika önce bu sözü kaydettin, hatırlamak ister misin?</item>
+    </plurals>
+
+    <plurals name="reminder_hours_ago">
+        <item quantity="one">%d saat önce bu sözü kaydettin, hatırlamak ister misin?</item>
+        <item quantity="other">%d saat önce bu sözü kaydettin, hatırlamak ister misin?</item>
+    </plurals>
+
+    <plurals name="reminder_days_ago">
+        <item quantity="one">%d gün önce bu sözü kaydettin, hatırlamak ister misin?</item>
+        <item quantity="other">%d gün önce bu sözü kaydettin, hatırlamak ister misin?</item>
+    </plurals>
+
+    <plurals name="reminder_weeks_ago">
+        <item quantity="one">%d hafta önce bu sözü kaydettin, hatırlamak ister misin?</item>
+        <item quantity="other">%d hafta önce bu sözü kaydettin, hatırlamak ister misin?</item>
+    </plurals>
+
+    <plurals name="reminder_months_ago">
+        <item quantity="one">%d ay önce bu sözü kaydettin, hatırlamak ister misin?</item>
+        <item quantity="other">%d ay önce bu sözü kaydettin, hatırlamak ister misin?</item>
+    </plurals>
+
+    <plurals name="reminder_years_ago">
+        <item quantity="one">%d yıl önce bu sözü kaydettin, hatırlamak ister misin?</item>
+        <item quantity="other">%d yıl önce bu sözü kaydettin, hatırlamak ister misin?</item>
+    </plurals>
+
+
+</resources>
